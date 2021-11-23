@@ -1,0 +1,18 @@
+#include "holberton.h"
+
+/**
+ *
+ * complex: Conjugate complex
+ * @conj: conjugate number
+ *
+ * Return: 0
+ */
+
+complex conjugate(complex c)
+{
+	complex conj;
+
+	conj.re = c.re;
+	conj.im = -conj.im;
+	return (conj);
+}

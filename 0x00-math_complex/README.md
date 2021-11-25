@@ -1,48 +1,93 @@
-Gracias william por ayudarme
-This is a README.md to Repository
-0x00. Math - Complex for Holberton School By Juan Posada Twitter @JuanSeb35904130
+# 0x00. Math - Complex
+***
+## This is a README.md for the repository 0x00. Math - Complex
+```
+For Holberton School
+Cohort 16. #12hourcode by @jhonbueno - [Twitter](https://twitter.com/jhonbuenoco)
+```
+### General
+* Algebra operations.
+* Absolute values.
+* Cosinus and Sinus.
+* The Cartesian plane.
+* The Complex plane.
+* Real part and Imaginary part of Complex Numbers.
+* Modulus
+* Argument
 
-By Mohamed Amine BEN AMOR, Khaoula DEROUICHE & Vincent ROESSLE
-Ongoing project - started 11-03-2021, must end by 11-13-2021 (in 8 days) - you're done with 0% of tasks.
-Checker will be released at 11-08-2021 12:00 AM
-QA review fully automated.
- Resources
-  Read or watch:
+### More Info
+[Introduction to complex numbers](https://www.youtube.com/watch?v=SP-YJe7Vldo)
+[Modulus and Argument](https://www.youtube.com/watch?v=g5_ojBMubA)
+[Operations](https://math.mit.edu/~stoopn/18.031/complexnumbers.pdf)
+[Absolute value & angle](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:complex/x9e81a4f98389efdf:complex-abs-angle/v/basic-complex-analysis)
+[Conjugates](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:complex/x9e81a4f98389efdf:complex-div/v/complex-conjugates=
 
-Introduction to complex numbers
-Modulus and Argument
-Operations (Only from page 1 to page 4)
-Absolute value & angle
-Conjugates
-Question #0
-What is the real part of 3 + 4i?
-X 3
-4
-None of them
-Question #1
-What is the conjugate number of 3 + 4i?
-5
-X 3 − 4i
-None of them
-Question #2
-What is the absolute value of 3 + 4i?
-X 5
-3 − 4i
-None of them
-Question #3
-What is the real part of a complex z?
-x option 1
-option 2
-None of them
+```
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
-Question #4
-If θ is the argument of a complex z and r its absolute. What is the value of the real part of z?
-X option 1
-Option 2
-option 3
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <string.h>
 
+/**
+ *struct complex - Struct complex
+  *@re: Real Number.
+   *@im: Imaginary Number.
+    *
+     *Description: This is a normal struct to complex number.
+      */
 
-README to repo
-GitHub repository: holbertonschool-math
-Directory: 0x00-math_complex
-File: 0-display.c
+typedef struct complex
+{
+	double re;
+	       double im;
+	       } complex;
+
+/*Write a function that displays the complex numbers,*/
+/*followed by a new line.*/
+void display_complex_number(complex c);
+/*Write a function that returns the conjugate of a given complex number.*/
+complex conjugate(complex c);
+/*Write a function that returns the modulus of a given complex number.*/
+double modulus(complex c);
+/*Write a function that returns the argument of a given complex number.*/
+double argument(complex c);
+/*Write a function that performs the addition operation to complex numbers.*/
+void addition(complex c1, complex c2, complex *c3);
+/*Write a function that performs the substraction operation to complex numbrs*/
+void substraction(complex c1, complex c2, complex *c3);
+/*Write a function that performs the multiplication operation to cmplx numbrs*/
+void multiplication(complex c1, complex c2, complex *c3);
+/*Write a function that performs the division operation to complex numbers.*/
+void division(complex c1, complex c2, complex *c3);
+/*Write a function that update the real and the imaginary parts of a complex*/
+/*Number given its modulus and arguments.*/
+void complex_from_mod_arg (double m, double arg, complex *c3);
+
+#endif
+
+```
+
+## Files included
+
+| File                 | Details                                    |
+|--------------------- | ------------------------------------------ |
+| [0-display.c](./a) |	       |
+| [1-conjugate.c](./b) |	       |
+| [2-modulus.c](./c) |	       |
+| [3-argument.c](./)  |	       |
+| [4-addition.c](./)  |	       |
+| [5-substraction.c]()|	       |
+| [6-multiplication.c]()|      |
+| [7-division.c]()|	       |
+| [8-complex.c]()|	       |
+
+### Author
+***
+*Holberton School Student*
+
+Juan Sebastian Posada  - [Github](https://github.com/Juansepo13) - [Twiter](https://twitter.com/@JuanSeb35904130)

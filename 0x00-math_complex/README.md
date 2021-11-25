@@ -3,7 +3,7 @@
 ## This is a README.md for the repository 0x00. Math - Complex
 ```
 For Holberton School
-Cohort 16. #12hourcode by @jhonbueno - [Twitter](https://twitter.com/jhonbuenoco)
+Cohort 16 #12hourcode by @jhonbueno - [Twitter](https://twitter.com/jhonbuenoco)
 ```
 ### General
 * Algebra operations.
@@ -16,11 +16,12 @@ Cohort 16. #12hourcode by @jhonbueno - [Twitter](https://twitter.com/jhonbuenoco
 * Argument
 
 ### More Info
-[Introduction to complex numbers](https://www.youtube.com/watch?v=SP-YJe7Vldo)
-[Modulus and Argument](https://www.youtube.com/watch?v=g5_ojBMubA)
-[Operations](https://math.mit.edu/~stoopn/18.031/complexnumbers.pdf)
-[Absolute value & angle](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:complex/x9e81a4f98389efdf:complex-abs-angle/v/basic-complex-analysis)
-[Conjugates](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:complex/x9e81a4f98389efdf:complex-div/v/complex-conjugates=
+
+* [Introduction to complex numbers](https://www.youtube.com/watch?v=SP-YJe7Vldo)
+* [Modulus and Argument](https://www.youtube.com/watch?v=g5_ojBMubA)
+* [Operations](https://math.mit.edu/~stoopn/18.031/complexnumbers.pdf)
+* [Absolute value & angle](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:complex/x9e81a4f98389efdf:complex-abs-angle/v/basic-complex-analysis)
+* [Conjugates](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:complex/x9e81a4f98389efdf:complex-div/v/complex-conjugates=)
 
 ```
 #ifndef HOLBERTON_H

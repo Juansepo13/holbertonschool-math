@@ -1,12 +1,11 @@
 # 0x00. Math - Complex
 ***
 ## This is a README.md for the repository 0x00. Math - Complex
-```
+
 For Holberton School
 Cohort 16 #12hourcode
 by Jhon Bueno - [Twitter](https://twitter.com/jhonbuenoco)
 
-```
 ### General
 * Algebra operations.
 * Absolute values.

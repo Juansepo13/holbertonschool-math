@@ -1,18 +1,21 @@
+#include <stdio.h>
 #include "holberton.h"
-#include <math.h>
 
 /**
- *Multiplication - Function that performs the multiplication operation to
- * complex number
- *@c1: Struc Complex1
- *@c2: Struc Complex2
- *@c3: Struc Complex3
+ *multiplication - Function that performs the multiplication
+ * operation to complex numbers.
+ *@c: complex type
  *
- *Return: Multiplications of numbers
+ *Return: None.
  */
 
 void multiplication(complex c1, complex c2, complex *c3)
 {
-	(*c3).re = ((c1.re * c2.re) - (c1.im * c2.im));
-	(*c3).im = ((c1.re * c2.im) * (c1.im * c2.re));
+	complex *com1, *com2;
+
+	com1 = &c1;
+	com2 = &c2;
+	c3->re = (com1->re * com2->re) - (com1->im * com2->im);
+	c3->im = (com1->re * com2->im) + (com1->im * com2->re);
+
 }

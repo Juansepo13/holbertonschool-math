@@ -1,19 +1,17 @@
-#include <stdio.h>
 #include "holberton.h"
 #include <math.h>
 
-
 /**
- * complex_from_mod_arg - singly linked list
- * @c: complex type
+ *complex_from_mod_arg - function the argument of a given complex number
+ *@m: Module of complex
+ *@arg: Argument of complex
+ *@c3: complex
  *
- *
- *
- * Return: none
+ *Return: None.
  */
 
-void complex_from_mod_arg (double m, double arg, complex *c3)
+void complex_from_mod_arg(double m, double arg, complex *c3)
 {
-	c3->re = sqrt((m * m) / ((tan(arg) * tan(arg)) + 1));
-	c3->im = tan(arg) * c3->re;
+	(*c3).im = m * sin(arg);
+	(*c3).re = m * cos(arg);
 }
